@@ -1,0 +1,289 @@
+/* --------------------------MOVIL S-M-L --------------------------------------------- */
+
+@media  (max-width: 760px) {
+
+    body {
+        padding-top: 70px;
+        background-image: linear-gradient( 110.3deg,  rgba(73, 93, 109, 0.74) 4.3%, rgba(49,55,82,1) 96.7% );
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        margin-right: 0px;
+        background: #666;
+        position: fixed;
+        left: 0;
+        top: 80px;
+        width: 100%;
+        align-items: center;
+        padding: 10px 0px;   
+        left: 100%;
+        transition: left 0.3s;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin: 0px;
+    }
+
+    .nav-menu_visible {
+        left: 0%;
+    }
+    
+    /* ------------ */
+
+    .cont-h {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 40px;
+        width: max-content;
+    }
+
+    .pc {
+        animation-delay: 0.3s;
+    }
+
+    .h1, .h2, .h3 {
+        animation-delay: 3s;
+    }
+
+    
+    .lapiz, .cafe, .calc, .libros, .reloj, .calendario {
+        display: none;
+    }
+    /* ------------ */
+
+    .cont-sobre-mi {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    /* ------------ */
+
+    .habilidades {
+        width: 100%;
+        height: auto;
+        background-image: url(p.png);
+    }
+
+    .img-hab {
+        width: 150px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .img-hab:hover {
+        width: 150px;
+    }
+
+    /* ------------ */
+
+    .form {
+        width: auto;
+        box-shadow: none;
+    }
+
+    input, textarea {
+        width: auto;
+    }
+
+}
+
+/* --------------------------MEDIA LAPTOP L--------------------------------------------- */
+
+
+@media  (max-width: 1440px) {
+
+    .img-col {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .pc {
+        height: 250px;
+        animation-duration: 2.5s;
+    }
+
+    .lapiz, .cafe, .calc, .libros {
+        height: 90px;
+        animation-duration: 1.5s;
+    }
+
+    .reloj, .calendario {
+        height: 90px;
+    }
+
+    
+    /* ---------ANIMATION-------------*/
+
+    @keyframes pc {
+        0% {bottom: 0px;}
+        50% {background: #699F66; bottom: 210px;}
+        75% {background: #699F66; bottom: 210px;}
+        100% {bottom: 0px;}
+    }
+
+    @keyframes calc {
+        0% {top: 0px; left: 0px;}
+        25% {top: 150px; left: 0px;}
+        50% {background: #667D9F; top: 150px; left: 350px;}
+        75% {top: 150px; left: 0px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes lapiz {
+        0% {top: 0px; left: 0px;}
+        50% {background: #9F9B66; top: 0px; left: 280px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes cafe {
+        0% {top: 0px; right: 0px;}
+        50% {background: #9F8E66; top: 0px; right: 280px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+    @keyframes libros {
+        0% {top: 0px; right: 0px;}
+        25% {top: 150px; right: 0px;}
+        50% {background: #9F669C; top: 150px; right: 350px;}
+        75% {top: 150px; right: 0px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+    @keyframes calendario  {
+        0% {left: 0px;}
+        50% {background: #9F6666; left: 250px;}
+        100% {left: 0px;}
+    }
+
+    @keyframes reloj {
+        0% {right: 0px;}
+        50% {background: #9F6666; right: 250px;}
+        100% {right: 0px;}
+    }
+
+}
+
+/* --------------------------MEDIA LAPTOP--------------------------------------------- */
+
+@media  (max-width: 1024px) {
+
+    .h1, .h2, .h3 {
+        font-size: 40px;
+        width: max-content;
+    }
+
+    .reloj, .calendario {
+        animation-fill-mode: forwards;
+    }
+
+    /* ---------ANIMATION-------------*/
+
+    @keyframes pc {
+        0% {bottom: 0px;}
+        50% {background: #699F66; bottom: 160px;}
+        75% {background: #699F66; bottom: 160px;}
+        100% {bottom: 0px;}
+    }
+
+    @keyframes calc {
+        0% {top: 0px; left: 0px;}
+        25% {top: 150px; left: 0px;}
+        50% {background: #667D9F; top: 150px; left: 230px;}
+        75% {top: 150px; left: 0px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes lapiz {
+        0% {top: 0px; left: 0px;}
+        50% {background: #9F9B66; top: 0px; left: 215px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes cafe {
+        0% {top: 0px; right: 0px;}
+        50% {background: #9F8E66; top: 0px; right: 215px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+    @keyframes libros {
+        0% {top: 0px; right: 0px;}
+        25% {top: 150px; right: 0px;}
+        50% {background: #9F669C; top: 150px; right: 230px;}
+        75% {top: 150px; right: 0px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+    @keyframes reloj  {
+        0% {left: 0px;}
+        50% {background: #9F6666; left: 150px;}
+        100% {left: 150px;}
+    }
+
+    @keyframes calendario {
+        0% {right: 0px;}
+        50% {background: #9F6666; right: 150px;}
+        100% {right: 150px;}
+    }
+
+}
+
+/* --------------------------TABLET--------------------------------------------- */
+
+@media  (max-width: 768px) {
+    
+    .img-col {
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .pc {
+        height: 200px;
+        animation-duration: 2.5s;
+    }
+
+    .lapiz, .cafe, .calc, .libros {
+        height: 50px;
+        animation-duration: 1.5s;
+    }
+
+    .reloj, .calendario {
+        height: 50px;
+    }
+
+    
+    @keyframes calc {
+        0% {top: 0px; left: 0px;}
+        25% {top: 150px; left: 0px;}
+        50% {background: #667D9F; top: 150px; left: 180px;}
+        75% {top: 150px; left: 0px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes lapiz {
+        0% {top: 0px; left: 0px;}
+        50% {background: #9F9B66; top: 0px; left: 170px;}
+        100% {top: 0px; left: 0px;}
+    }
+
+    @keyframes cafe {
+        0% {top: 0px; right: 0px;}
+        50% {background: #9F8E66; top: 0px; right: 170px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+    @keyframes libros {
+        0% {top: 0px; right: 0px;}
+        25% {top: 150px; right: 0px;}
+        50% {background: #9F669C; top: 150px; right: 180px;}
+        75% {top: 150px; right: 0px;}
+        100% {top: 0px; right: 0px;}
+    }
+
+}
