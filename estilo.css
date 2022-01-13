@@ -346,6 +346,53 @@ body {
 
 /* ----------------------------------------------------------------------- */
 
+.cont-proyectos{
+     height: auto;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.proyectos-div {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 35px 10px;
+    border-radius: 50px;
+    transition: .3s;
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.2);
+}
+
+.tit-proy {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.proyecto {
+    margin: 15px;
+    font-size: 18px;
+    color: #000;
+}
+
+.p-proyecto {
+    margin: 15px;
+    text-align: justify;
+}
+
+/* ------------------------------- */
+
+.proyectos-div:hover {
+    background: #9F669C;
+}
+
+
+.proyecto:hover {
+    color: #fff;
+}
+
 .form {
     width: 60%;
     height: auto;
