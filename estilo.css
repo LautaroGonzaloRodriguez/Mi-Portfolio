@@ -343,7 +343,6 @@ body {
     background-color: #ffffff80;
 }
 
-
 /* ----------------------------------------------------------------------- */
 
 .cont-proyectos{
@@ -385,13 +384,20 @@ body {
 /* ------------------------------- */
 
 .proyectos-div:hover {
-    background: #9F669C;
+    background: #eee;
+    -webkit-box-shadow: 10px 10px 0px 0px #a5a5a5;
+    -moz-box-shadow: 5px 5px 0px 0px #a5a5a5;
+    box-shadow: 10px 10px 0px 0px #a5a5a5;
 }
 
 
 .proyecto:hover {
-    color: #fff;
+    color: #9F669C;
 }
+
+
+
+/* ----------------------------------------------------------------------- */
 
 .form {
     width: 60%;
